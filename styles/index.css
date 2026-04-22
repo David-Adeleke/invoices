@@ -1,0 +1,8 @@
+main {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  box-sizing: border-box;
+  max-height: 100vh;
+}

@@ -1,0 +1,15 @@
+.invoice-details-main {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  max-height: 100vh;
+}
+
+.invoice-details-container {
+  background-color: #fff;
+  padding: 2rem 12rem 2rem;
+  border-radius: 5px;
+  flex: 1;
+}
