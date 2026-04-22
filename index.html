@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <link rel="stylesheet" href="../styles/sidebar.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <div class="sidebar-logo-container">
+          <img
+            src="./assets/logo.png"
+            alt="invoice-logo"
+            class="sidebar-logo"
+          />
+        </div>
+        <div class="siderbar-cta">
+          <div class="sidebar-cta-night">
+            <img
+              src="./assets/night.png"
+              alt="night-mode"
+              class="sidebar-cta-night-icon"
+            />
+          </div>
+          <div class="sidebar-cta-profile">
+            <img
+              src="./assets/profile.png"
+              alt="profile"
+              class="sidebar-cta-profile-icon"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="invoice-container">
+        <div class="invoice-header-container">
+          <h1>Invoices</h1>
+
+          <div class="invoice-header-cta">
+            <div class="invoice-header-cta-filter">
+              <label for=""> Filter by status &dArr; </label>
+              <select name="status" id="status">
+                <option value="draft">Draft</option>
+                <option value="pending">Pending</option>
+                <option value="paid">Paid</option>
+              </select>
+            </div>
+            <button class="invoice-header-cta-create">Create Invoice</button>
+          </div>
+        </div>
+        <div class="invoice-counter">
+          <p>There are 7 total invoices</p>
+        </div>
+
+        <div class="invoice-list-container">
+          <div class="invoice-details-container" id="invoice-list">
+            
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
