@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="../styles/sidebar.css" />
+    <link rel="stylesheet" href="../styles/invoice-details.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="invoice-details-main">
+      <div class="sidebar">
+        <div class="sidebar-logo-container">
+          <img
+            src="../assets/logo.png"
+            alt="invoice-logo"
+            class="sidebar-logo"
+          />
+        </div>
+        <div class="siderbar-cta">
+          <div class="sidebar-cta-night">
+            <img
+              src="../assets/night.png"
+              alt="night-mode"
+              class="sidebar-cta-night-icon"
+            />
+          </div>
+          <hr />
+          <div class="sidebar-cta-profile">
+            <img
+              src="../assets/profile.png"
+              alt="profile"
+              class="sidebar-cta-profile-icon"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="invoice-details-container">
+        <div class="invoice-details-nav">
+          <a href="/">&lAarr; <span>Go back</span></a>
+        </div>
+        <div class="invoice-details-cta-container">
+          <div class="invoice-details-status">
+            <p>Status <span class="invoice-status">Paid</span></p>
+          </div>
+          <div class="invoice-details-cta">
+            <button class="invoice-details-cta-edit">Edit</button>
+            <button class="invoice-details-cta-delete">Delete</button>
+            <button class="invoice-details-cta-mark-paid">Mark as Paid</button>
+          </div>
+        </div>
+        <div class="invoice-details">
+          <div class="invoice-details-header">
+            <h1 class="invoice-id">#RT3080</h1>
+            <p class="invoice-address">19 Union Terrace, London E1 3EZ</p>
+          </div>
+          <div class="invoice-details-body">
+            <div class="invoice-dates">
+              <div class="invoice-date">
+                <p>Invoice Date</p>
+                <h2>21 Aug 2021</h2>
+              </div>
+              <div class="invoice-due-date">
+                <p>Payment Due</p>
+                <h2>20 Sep 2021</h2>
+              </div>
+            </div>
+            <div class="invoice-client-details">
+              <p>Bill To</p>
+              <h2>Jensen Huang</h2>
+              <p class="invoice-client-address">
+                84 Church Way Bradford BD1 9P8 United Kingdom
+              </p>
+            </div>
+            <div class="invoice-client-email">
+              <p>Sent to</p>
+              <h2>alexgrim@mail.com</h2>
+            </div>
+          </div>
+          <div class="invoice-items">
+            <div class="invoice-item-header">
+              <p>Item Name</p>
+              <p>QTY.</p>
+              <p>Price</p>
+              <p>Total</p>
+            </div>
+            <div class="invoice-item">
+              <p>Banner Design</p>
+              <p>1</p>
+              <p>$ 156.00</p>
+              <p>$ 156.00</p>
+            </div>
+            <div class="total">
+              <p>Amount Due</p>
+              <h2>$ 156.00</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
